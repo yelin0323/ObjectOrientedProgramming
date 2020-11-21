@@ -75,7 +75,5 @@ int main()
 
 	}
 
-	cout << "github test" << endl;
-
 	return 0;
 }
