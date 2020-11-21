@@ -1,0 +1,21 @@
+<bin 폴더>
+.dll (dynamically linked library)
+
+- dynamically
+ : 프로그램에 붙어 있지 않고 가져다가 사용
+ : 장점 :: 여러 프로그램에서 라이브러리를 사용가능
+ : 단점 :: 프로그램 관리에 어려움이 있다 (verson 관리가 어려움)
+- statically
+ : 정적으로 프로그램에 붙어서 사용
+
+<lib 폴더>
+audio.lib -> dynamically -> dll이 어디에 있는지 알 수 있도록 도와주는 애 / 엄청 가벼워
+audio-d.lib -> dynamically debug
+
+audio-s.lib -> statically release -> 가벼워
+audio-s-d.lib -> statically debug -> 엄청 무거워 느려느려
+
+-------------
+.md (mark down)
+readme.md
+--> 보기 편하도록 해주는 포맷
