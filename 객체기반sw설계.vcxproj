@@ -292,7 +292,9 @@
     <ClCompile Include="53_0_File_example_method.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="53_1_fstream_method.cpp" />
+    <ClCompile Include="53_1_fstream_method.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="21_PrintData.h">
