@@ -168,6 +168,18 @@
     <ClCompile Include="50_1_Multiple inheritance.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="51_virtual_function.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="52_File_output_input.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="53_0_File_example_method.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="53_1_fstream_method.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="21_PrintData.h">
