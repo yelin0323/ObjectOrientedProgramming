@@ -162,7 +162,10 @@
     <ClCompile Include="49_inheritance.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="50_inheritance.cpp">
+    <ClCompile Include="50_0_inheritance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="50_1_Multiple inheritance.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

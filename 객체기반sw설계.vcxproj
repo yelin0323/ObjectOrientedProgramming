@@ -277,7 +277,10 @@
     <ClCompile Include="49_inheritance.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="50_inheritance.cpp" />
+    <ClCompile Include="50_0_inheritance.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="50_1_Multiple inheritance.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="21_PrintData.h">
