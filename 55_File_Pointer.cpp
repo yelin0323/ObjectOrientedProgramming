@@ -39,14 +39,9 @@ int main()
 	int k;
 	//input_f.read((char*)& k, sizeof(int));
 
-	//input_f.seekg(sizeof(int) * 2, std::ios::beg);
-	input_f.seekg(-1* (sizeof(int) * 3), std::ios::end);
-	//input_f.seekg(sizeof(int) * 2, std::ios::cur); //cur == beg;
-
-	input_f.read((char*)& k, sizeof(int));
-	std::cout << "Value: " << k << endl;
-
-	//input_f.seekg(sizeof(int) *-1, std::ios::cur); //cur == beg;
+	//input_f.seekg(sizeof(int) * 2, std::ios::beg); //30
+	//input_f.seekg(sizeof(int) * -3, std::ios::end);	//30
+	input_f.seekg(sizeof(int) * 2, std::ios::cur); //cur == beg;
 
 	input_f.read((char*)& k, sizeof(int));
 	std::cout << "Value: " << k << endl;
