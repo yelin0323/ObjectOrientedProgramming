@@ -180,6 +180,21 @@
     <ClCompile Include="53_1_fstream_method.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="54_binary_text_file_comparision.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="55_File_Pointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="56_exception_banding_try_catch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="57_1_template_for_class.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="57_0_template_for_function.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="21_PrintData.h">
@@ -194,5 +209,10 @@
     <ClInclude Include="31_GUN.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bdata.bin">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
