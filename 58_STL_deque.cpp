@@ -56,7 +56,7 @@ int main()
 	}
 	cout << endl;
 
-	//역순 읽기
+	//역순 읽기. by iterator
 	for (auto e = mydeque.rbegin(); e != mydeque.rend(); e++)
 	{
 		cout << *e << " ";
@@ -64,6 +64,30 @@ int main()
 	}
 	cout << endl;
 
+	//2번 자리에 100을 넣는다.
+	auto loc = mydeque.cbegin();	//constuct begin()
+	advance(loc, 1);	//mydeque의 1번 자리를 loc이 가리키도록
+
+	mydeque.insert(loc, 100);	//loc자리 앞에 100 삽입
+
+	for (auto e = mydeque.begin(); e != mydeque.end(); e++)
+	{
+		cout << *e << " ";
+
+	}
+	cout << endl;
+
+	//4삭제
+	loc = mydeque.cbegin();	
+	advance(loc, 4);	//loc이 4번자리를 가리키도록
+	mydeque.erase(loc);	//4번자리에 있는 값 삭제 // 4삭제
+
+	for (auto e = mydeque.begin(); e != mydeque.end(); e++)
+	{
+		cout << *e << " ";
+
+	}
+	cout << endl;
 
 
 	return 0;
