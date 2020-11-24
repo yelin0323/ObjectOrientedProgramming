@@ -195,6 +195,27 @@
     <ClCompile Include="57_0_template_for_function.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="58_STL_deque.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="59_STL_list_forward_list.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="60_STL_container_adaptor_stack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="61_STL_container_adaptor_queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="62_STL_container_adaptor_priority_queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="63_STL_container_set_for_int.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="64_STL_container_set_for_obj.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="21_PrintData.h">
