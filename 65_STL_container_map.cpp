@@ -63,7 +63,8 @@ int main()
 
 	//find 대용
 	cout << mymap["mike1"] << endl; //키값(이름)으로 value(나이) 찾기
-	cout << mymap["mike99"] << endl; //키값이 없는 경우
+	cout << mymap["mike99"] << endl; //키값이 없는 경우 0반환
+
 
 	//삭제하기
 	cout << "----삭제하기---" << endl;
