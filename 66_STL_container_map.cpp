@@ -72,5 +72,7 @@ int main()
 		cout << e.first.name << ", " << e.second << endl;
 	}
 
+	mymap.erase(Person("mike2", 21));
+
 	return 0;
 }
