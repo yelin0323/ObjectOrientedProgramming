@@ -216,6 +216,12 @@
     <ClCompile Include="64_STL_container_set_for_obj.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="65_STL_container_map.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="66_STL_container_map.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="21_PrintData.h">
